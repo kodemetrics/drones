@@ -1,0 +1,87 @@
+2021-12-27 22:04:59.227  INFO 25216 --- [restartedMain] com.musala.MusalaApplication             : Starting MusalaApplication using Java 11.0.10 on AEDC-201358 with PID 25216 (C:\Users\kingsley.okafor\Documents\STS\workspace-sts\okafor-kingsley\target\classes started by Kingsley.Okafor in C:\Users\kingsley.okafor\Documents\STS\workspace-sts\okafor-kingsley)
+2021-12-27 22:04:59.229  INFO 25216 --- [restartedMain] com.musala.MusalaApplication             : No active profile set, falling back to default profiles: default
+2021-12-27 22:04:59.337  INFO 25216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 22:04:59.338  INFO 25216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 22:05:00.397  INFO 25216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-27 22:05:00.480  INFO 25216 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+2021-12-27 22:05:01.563  INFO 25216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 22:05:01.580  INFO 25216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 22:05:01.581  INFO 25216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 22:05:01.723  INFO 25216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-27 22:05:01.723  INFO 25216 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2383 ms
+2021-12-27 22:05:01.784  INFO 25216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-27 22:05:02.036  INFO 25216 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-27 22:05:02.070  INFO 25216 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:d8f57ddd-6981-48c0-b35b-56cbcaeb88d0'
+2021-12-27 22:05:02.311  INFO 25216 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-27 22:05:02.385  INFO 25216 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2021-12-27 22:05:02.600  INFO 25216 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-27 22:05:02.777  INFO 25216 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-27 22:05:03.725  INFO 25216 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-27 22:05:03.736  INFO 25216 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-27 22:05:04.456  WARN 25216 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-27 22:05:04.909  INFO 25216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-27 22:05:04.947  INFO 25216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-27 22:05:04.963  INFO 25216 --- [restartedMain] com.musala.MusalaApplication             : Started MusalaApplication in 6.448 seconds (JVM running for 7.301)
+2021-12-27 22:05:06.122  INFO 25216 --- [scheduling-1] com.musala.MusalaApplication             : drone id:1 battery level: 95 Mon Dec 27 22:05:06 WAT 2021
+2021-12-27 22:05:06.134  INFO 25216 --- [scheduling-1] com.musala.MusalaApplication             : drone id:2 battery level: 90 Mon Dec 27 22:05:06 WAT 2021
+2021-12-27 22:05:06.144  INFO 25216 --- [scheduling-1] com.musala.MusalaApplication             : drone id:3 battery level: 85 Mon Dec 27 22:05:06 WAT 2021
+2021-12-27 22:05:06.152  INFO 25216 --- [scheduling-1] com.musala.MusalaApplication             : drone id:4 battery level: 80 Mon Dec 27 22:05:06 WAT 2021
+2021-12-27 22:05:06.162  INFO 25216 --- [scheduling-1] com.musala.MusalaApplication             : drone id:5 battery level: 75 Mon Dec 27 22:05:06 WAT 2021
+2021-12-27 22:06:00.290  INFO 15340 --- [restartedMain] com.musala.MusalaApplication             : Starting MusalaApplication using Java 11.0.10 on AEDC-201358 with PID 15340 (C:\Users\kingsley.okafor\Documents\STS\workspace-sts\okafor-kingsley\target\classes started by Kingsley.Okafor in C:\Users\kingsley.okafor\Documents\STS\workspace-sts\okafor-kingsley)
+2021-12-27 22:06:00.291  INFO 15340 --- [restartedMain] com.musala.MusalaApplication             : No active profile set, falling back to default profiles: default
+2021-12-27 22:06:00.389  INFO 15340 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 22:06:00.390  INFO 15340 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 22:06:01.417  INFO 15340 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-27 22:06:01.492  INFO 15340 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 2 JPA repository interfaces.
+2021-12-27 22:06:02.786  INFO 15340 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 22:06:02.811  INFO 15340 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 22:06:02.812  INFO 15340 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 22:06:02.984  INFO 15340 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-27 22:06:02.985  INFO 15340 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2594 ms
+2021-12-27 22:06:03.030  INFO 15340 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-27 22:06:03.306  INFO 15340 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-27 22:06:03.347  INFO 15340 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:4673d682-b433-42c3-9bb3-bbc4792e8a69'
+2021-12-27 22:06:03.614  INFO 15340 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-27 22:06:03.689  INFO 15340 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2021-12-27 22:06:03.906  INFO 15340 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-27 22:06:04.098  INFO 15340 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-27 22:06:05.099  INFO 15340 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-27 22:06:05.110  INFO 15340 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-27 22:06:05.833  WARN 15340 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-27 22:06:06.291  INFO 15340 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-27 22:06:06.335  INFO 15340 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-27 22:06:06.351  INFO 15340 --- [restartedMain] com.musala.MusalaApplication             : Started MusalaApplication in 6.793 seconds (JVM running for 7.687)
+2021-12-27 22:06:07.528  INFO 15340 --- [scheduling-1] com.musala.MusalaApplication             : drone id:1 battery level: 95 Mon Dec 27 22:06:07 WAT 2021
+2021-12-27 22:06:07.544  INFO 15340 --- [scheduling-1] com.musala.MusalaApplication             : drone id:2 battery level: 90 Mon Dec 27 22:06:07 WAT 2021
+2021-12-27 22:06:07.557  INFO 15340 --- [scheduling-1] com.musala.MusalaApplication             : drone id:3 battery level: 85 Mon Dec 27 22:06:07 WAT 2021
+2021-12-27 22:06:07.568  INFO 15340 --- [scheduling-1] com.musala.MusalaApplication             : drone id:4 battery level: 80 Mon Dec 27 22:06:07 WAT 2021
+2021-12-27 22:06:07.583  INFO 15340 --- [scheduling-1] com.musala.MusalaApplication             : drone id:5 battery level: 75 Mon Dec 27 22:06:07 WAT 2021
+2021-12-27 22:06:58.927  INFO 14780 --- [restartedMain] com.musala.MusalaApplication             : Starting MusalaApplication using Java 11.0.10 on AEDC-201358 with PID 14780 (C:\Users\kingsley.okafor\Documents\STS\workspace-sts\okafor-kingsley\target\classes started by Kingsley.Okafor in C:\Users\kingsley.okafor\Documents\STS\workspace-sts\okafor-kingsley)
+2021-12-27 22:06:58.929  INFO 14780 --- [restartedMain] com.musala.MusalaApplication             : No active profile set, falling back to default profiles: default
+2021-12-27 22:06:59.028  INFO 14780 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 22:06:59.028  INFO 14780 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 22:07:00.232  INFO 14780 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-27 22:07:00.303  INFO 14780 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 2 JPA repository interfaces.
+2021-12-27 22:07:01.503  INFO 14780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 22:07:01.525  INFO 14780 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 22:07:01.527  INFO 14780 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 22:07:01.734  INFO 14780 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-27 22:07:01.734  INFO 14780 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2705 ms
+2021-12-27 22:07:01.780  INFO 14780 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-27 22:07:02.012  INFO 14780 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-27 22:07:02.033  INFO 14780 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:b0f1587f-5c3c-484d-baad-7ef5973dbad9'
+2021-12-27 22:07:02.212  INFO 14780 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-27 22:07:02.288  INFO 14780 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2021-12-27 22:07:02.531  INFO 14780 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-27 22:07:02.702  INFO 14780 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-27 22:07:03.675  INFO 14780 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-27 22:07:03.689  INFO 14780 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-27 22:07:04.482  WARN 14780 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-27 22:07:04.989  INFO 14780 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-27 22:07:05.035  INFO 14780 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-27 22:07:05.052  INFO 14780 --- [restartedMain] com.musala.MusalaApplication             : Started MusalaApplication in 6.858 seconds (JVM running for 7.754)
+2021-12-27 22:07:06.229  INFO 14780 --- [scheduling-1] com.musala.MusalaApplication             : drone id:1 battery level: 95 Mon Dec 27 22:07:06 WAT 2021
+2021-12-27 22:07:06.246  INFO 14780 --- [scheduling-1] com.musala.MusalaApplication             : drone id:2 battery level: 90 Mon Dec 27 22:07:06 WAT 2021
+2021-12-27 22:07:06.261  INFO 14780 --- [scheduling-1] com.musala.MusalaApplication             : drone id:3 battery level: 85 Mon Dec 27 22:07:06 WAT 2021
+2021-12-27 22:07:06.274  INFO 14780 --- [scheduling-1] com.musala.MusalaApplication             : drone id:4 battery level: 80 Mon Dec 27 22:07:06 WAT 2021
+2021-12-27 22:07:06.288  INFO 14780 --- [scheduling-1] com.musala.MusalaApplication             : drone id:5 battery level: 75 Mon Dec 27 22:07:06 WAT 2021

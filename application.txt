@@ -1,0 +1,54 @@
+2021-12-27 22:07:34.526  INFO 7972 --- [restartedMain] com.musala.MusalaApplication             : Starting MusalaApplication using Java 11.0.10 on AEDC-201358 with PID 7972 (C:\Users\kingsley.okafor\Documents\STS\workspace-sts\okafor-kingsley\target\classes started by Kingsley.Okafor in C:\Users\kingsley.okafor\Documents\STS\workspace-sts\okafor-kingsley)
+2021-12-27 22:07:34.528  INFO 7972 --- [restartedMain] com.musala.MusalaApplication             : No active profile set, falling back to default profiles: default
+2021-12-27 22:07:34.662  INFO 7972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-27 22:07:34.663  INFO 7972 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-27 22:07:35.686  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-27 22:07:35.769  INFO 7972 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+2021-12-27 22:07:36.986  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 22:07:37.001  INFO 7972 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 22:07:37.002  INFO 7972 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2021-12-27 22:07:37.140  INFO 7972 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-27 22:07:37.140  INFO 7972 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2476 ms
+2021-12-27 22:07:37.183  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-27 22:07:37.446  INFO 7972 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-27 22:07:37.462  INFO 7972 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ea871e1f-2c03-4a64-a72c-53da8fd48ab2'
+2021-12-27 22:07:37.658  INFO 7972 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-27 22:07:37.747  INFO 7972 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2021-12-27 22:07:37.993  INFO 7972 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-27 22:07:38.200  INFO 7972 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-27 22:07:39.162  INFO 7972 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-27 22:07:39.174  INFO 7972 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-27 22:07:39.919  WARN 7972 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-27 22:07:40.372  INFO 7972 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-27 22:07:40.418  INFO 7972 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-27 22:07:40.439  INFO 7972 --- [restartedMain] com.musala.MusalaApplication             : Started MusalaApplication in 6.645 seconds (JVM running for 7.586)
+2021-12-27 22:07:41.606  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:1 battery level: 95 Mon Dec 27 22:07:41 WAT 2021
+2021-12-27 22:07:41.624  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:2 battery level: 90 Mon Dec 27 22:07:41 WAT 2021
+2021-12-27 22:07:41.640  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:3 battery level: 85 Mon Dec 27 22:07:41 WAT 2021
+2021-12-27 22:07:41.654  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:4 battery level: 80 Mon Dec 27 22:07:41 WAT 2021
+2021-12-27 22:07:41.668  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:5 battery level: 75 Mon Dec 27 22:07:41 WAT 2021
+2021-12-27 22:08:42.711  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:1 battery level: 95 Mon Dec 27 22:08:42 WAT 2021
+2021-12-27 22:08:42.725  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:2 battery level: 90 Mon Dec 27 22:08:42 WAT 2021
+2021-12-27 22:08:42.739  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:3 battery level: 85 Mon Dec 27 22:08:42 WAT 2021
+2021-12-27 22:08:42.755  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:4 battery level: 80 Mon Dec 27 22:08:42 WAT 2021
+2021-12-27 22:08:42.772  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:5 battery level: 75 Mon Dec 27 22:08:42 WAT 2021
+2021-12-27 22:09:43.803  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:1 battery level: 95 Mon Dec 27 22:09:43 WAT 2021
+2021-12-27 22:09:43.816  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:2 battery level: 90 Mon Dec 27 22:09:43 WAT 2021
+2021-12-27 22:09:43.827  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:3 battery level: 85 Mon Dec 27 22:09:43 WAT 2021
+2021-12-27 22:09:43.839  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:4 battery level: 80 Mon Dec 27 22:09:43 WAT 2021
+2021-12-27 22:09:43.850  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:5 battery level: 75 Mon Dec 27 22:09:43 WAT 2021
+2021-12-27 22:10:44.877  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:1 battery level: 95 Mon Dec 27 22:10:44 WAT 2021
+2021-12-27 22:10:44.892  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:2 battery level: 90 Mon Dec 27 22:10:44 WAT 2021
+2021-12-27 22:10:44.905  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:3 battery level: 85 Mon Dec 27 22:10:44 WAT 2021
+2021-12-27 22:10:44.918  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:4 battery level: 80 Mon Dec 27 22:10:44 WAT 2021
+2021-12-27 22:10:44.929  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:5 battery level: 75 Mon Dec 27 22:10:44 WAT 2021
+2021-12-27 22:11:45.981  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:1 battery level: 95 Mon Dec 27 22:11:45 WAT 2021
+2021-12-27 22:11:45.998  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:2 battery level: 90 Mon Dec 27 22:11:45 WAT 2021
+2021-12-27 22:11:46.015  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:3 battery level: 85 Mon Dec 27 22:11:46 WAT 2021
+2021-12-27 22:11:46.031  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:4 battery level: 80 Mon Dec 27 22:11:46 WAT 2021
+2021-12-27 22:11:46.048  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:5 battery level: 75 Mon Dec 27 22:11:46 WAT 2021
+2021-12-27 22:12:47.087  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:1 battery level: 95 Mon Dec 27 22:12:47 WAT 2021
+2021-12-27 22:12:47.102  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:2 battery level: 90 Mon Dec 27 22:12:47 WAT 2021
+2021-12-27 22:12:47.113  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:3 battery level: 85 Mon Dec 27 22:12:47 WAT 2021
+2021-12-27 22:12:47.126  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:4 battery level: 80 Mon Dec 27 22:12:47 WAT 2021
+2021-12-27 22:12:47.138  INFO 7972 --- [scheduling-1] com.musala.MusalaApplication             : drone id:5 battery level: 75 Mon Dec 27 22:12:47 WAT 2021
